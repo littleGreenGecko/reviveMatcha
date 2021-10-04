@@ -160,6 +160,7 @@ footer  p {
         margin: 20px;    
     }
     }
+    
     /* For landscape-Tablets, 768px and up */
 @media only screen and (min-width: 768px) {
     nav {
@@ -176,5 +177,34 @@ footer  p {
     .img1 {
         height: auto;
     }  
+}
+
+/* For Laptops/ Secktops, 992px and up */
+@media only screen and (min-width: 992px) {
+    nav a{
+       font-size: 24px;          
+    }
+    header { 
+        margin: 100px 40px 0 40px; 
+
+    }
+    .about {     
+        margin: 40px;          
+       font-size: 22px;
+    }
+    .about ul  {      
+      line-height: 35px;
+      letter-spacing: 1px;
+    }
+  .img1 { 
+    display: none;
+}
+.imgbox img{
+  width: 80%;
+  height: 300px;
+}
+h2 {
+ font-size: 26px;  
+}
 }
 
