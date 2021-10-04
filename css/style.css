@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    background-color: rgb(214, 211, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #646864;              
+} 
+
+/* For portrait-Phones, 600px and down */
+nav {
+    display: none;
+}
+header {
+    position: fixed;   
+    top: 0;     
+   background-color: rgb(208, 226, 204);  
+    color: rgb(73, 89, 114);
+    width: 100%;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;  
+    letter-spacing: 2px;
+    padding-bottom: 0.625rem;    
+    z-index: 2; 
+    font-size: 17px;
+}
+header h1 {
+    border-bottom: 2px solid whitesmoke;
+    border-top: 2px solid whitesmoke;
+}
