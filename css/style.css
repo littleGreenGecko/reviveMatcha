@@ -160,3 +160,21 @@ footer  p {
         margin: 20px;    
     }
     }
+    /* For landscape-Tablets, 768px and up */
+@media only screen and (min-width: 768px) {
+    nav {
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        border-bottom: 2px solid rgb(134, 134, 134);
+    }
+    header {
+        margin-top: 60px;
+        padding-top: 20px;
+        font-size: 21px;
+    }   
+    .img1 {
+        height: auto;
+    }  
+}
+
