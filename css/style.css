@@ -98,3 +98,65 @@ footer  p {
     background-color: rgb(191, 214, 185);
     border-radius: 5px;
 }
+
+/* For landscape-Phones, portrait-Tablets , 600px and up */  
+@media only screen and (min-width:600px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;     
+        top: 0;  
+        background-color: rgb(207, 217, 248);  
+        position: fixed;   
+        width: 100%;
+        z-index: 2;
+        border-bottom: 2px solid rgb(134, 134, 134);    
+    }
+    nav a {
+        text-decoration: none;
+        color:  rgb(99, 96, 96);
+       font-size: 19px;
+       padding: 15px;  
+       letter-spacing: 2px;;
+    }
+    header {
+       position:initial;  
+       letter-spacing: 2px; 
+       margin-top: 70px;
+       margin-bottom: 15px;
+       padding-top: 10px;  
+       
+    }
+    .about  {
+        margin-top: 5px; 
+        display: flex; 
+        flex-flow: column wrap;       
+    }    
+    .img1 {
+        width: 80%;
+       align-self: center; 
+        margin-top: 10px;   
+    }
+     .img2 {
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .about ul {
+        margin: 0 30px 20px 40px;
+    }
+    .shop {
+        display: flex;
+        flex-direction: row;       
+    }
+    .imgbox img{
+        width: 90% ;
+        height: 150px;
+    }
+    .address {
+        display: none;
+    }
+    footer  {
+        margin: 20px;    
+    }
+    }
