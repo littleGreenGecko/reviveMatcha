@@ -179,17 +179,18 @@ footer  p {
     }  
 }
 
-/* For Laptops/ Secktops, 992px and up */
+/* For Laptops/ Desktops, 992px and up */
 @media only screen and (min-width: 992px) {
     nav a{
        font-size: 24px;          
     }
     header { 
-        margin: 100px 40px 0 40px; 
-
+        width: 100%;
+        
     }
     .about {     
-        margin: 40px;          
+        width: 100%;   
+        margin-top: 20px;       
        font-size: 22px;
     }
     .about ul  {      
