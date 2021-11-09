@@ -30,7 +30,7 @@ header h1 {
     border-bottom: 2px solid whitesmoke;
     border-top: 2px solid whitesmoke;
 }
-.about  {       
+#about  {       
     margin-top: 190px;      
     word-spacing: 2px;
     line-height: 30px;
@@ -89,7 +89,7 @@ footer {
 footer  p {
   font-size: 10px;
 }
-.address {
+#address {
     margin: 20px 0;
    padding: 20px;
     font-size: 1rem;
@@ -128,7 +128,7 @@ footer  p {
        padding-top: 10px;  
        
     }
-    .about  {
+    #about  {
         margin-top: 5px; 
         display: flex; 
         flex-flow: column wrap;       
@@ -143,10 +143,10 @@ footer  p {
         height: auto;
         margin-bottom: 15px;
     }
-    .about ul {
+    #about ul {
         margin: 0 30px 20px 40px;
     }
-    .shop {
+    #shop {
         display: flex;
         flex-direction: row;       
     }
@@ -154,7 +154,7 @@ footer  p {
         width: 90% ;
         height: 150px;
     }
-    .address {
+    #address {
         display: none;
     }
     footer  {
@@ -189,12 +189,12 @@ footer  p {
         width: 100%;
         
     }
-    .about {     
+    #about {     
         width: 100%;   
         margin-top: 20px;       
        font-size: 22px;
     }
-    .about ul  {      
+    #about ul  {      
       line-height: 35px;
       letter-spacing: 1px;
     }
